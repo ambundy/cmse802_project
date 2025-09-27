@@ -21,15 +21,17 @@ The project will combine probabilistic modeling, simulation, and sensitivity ana
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
-### Clone the Repository
+### Clone the Repository 
 ```bash
 git clone <your-repo-url>
 cd CMSE802-Project
+conda env create -f environment.yml
+```
 
- ## Repository Structure
-
+### Repository Structure
+```bash
 - **data/**
   - `raw/`: Original datasets (Google Sheets exported as CSV). These should remain unmodified.
   - `processed/`: Cleaned and reshaped datasets, including transition matrices used in simulations.
@@ -73,9 +75,4 @@ cd CMSE802-Project
 
 ---
 
-## Usage
-Clone the repository and install dependencies:
-```bash
-git clone <your-repo-url>
-cd CMSE802-Project
-conda env create -f environment.yml
+```
