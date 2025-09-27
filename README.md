@@ -31,7 +31,6 @@ conda env create -f environment.yml
 ```
 
 ### Repository Structure
-```bash
 - **data/**
   - `raw/`: Original datasets (Google Sheets exported as CSV). These should remain unmodified.
   - `processed/`: Cleaned and reshaped datasets, including transition matrices used in simulations.
@@ -74,5 +73,3 @@ conda env create -f environment.yml
   - This file. Provides project overview and folder explanations.
 
 ---
-
-```
